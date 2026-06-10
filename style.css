@@ -2,6 +2,14 @@ body {
     font-family: sans-serif;
 }
 
+p {
+    padding-left:1%;
+}
+
+a, a:hover {
+    color:black;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-end; 
@@ -13,12 +21,12 @@ body {
     z-index:1000;
 }
 
-.navbar-button {
+.navbar-button { 
     display: inline-block;
     text-decoration: none;
     transition: all 0.3s ease;
     background-color:rgb(255, 152, 204);
-    color:black;
+    color:black !important;
     font-weight: bold;
     padding:1vw;
     border-radius:1vw;
@@ -26,20 +34,26 @@ body {
 
 .navbar-button:hover {
     background-color:hotpink;
-    color:white;
+    color:white !important;
 }
 
 .section-title {
     font-weight:bold;
-    padding:1%;
+    padding-top:1%;
+    padding-left:1%;
+}
+
+.standout-text {
+    /* font-weight:bold; */
+    color:hotpink;
 }
 
 .photo {
-    max-width: 20vw;
+    max-width: 25vw;
     height:auto;
 }
 
-/* MOBILE STYLING */
+/* styling for mobile screens! */
 @media only screen and (max-width: 768px) {
     .navbar {
         display: flex;
@@ -49,12 +63,19 @@ body {
         list-style-type: none;
         gap: 4vw; 
         width:95vw;
-        position:fixed;
+        margin-top:1vh;
+        position:absolute;
         z-index:1000;
     }
 
+    .navbar-button {
+        height:5vh;
+        align-content: center;
+        border-radius:4vw;
+    }
+
     .photo {
-        max-width: 35vw;
+        max-width: 50vw;
         height:auto;
     }
 
