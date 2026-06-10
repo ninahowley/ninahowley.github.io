@@ -10,6 +10,10 @@ a, a:hover {
     color:black;
 }
 
+.height-dependent-content {
+    display: block;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-end; 
@@ -29,6 +33,7 @@ a, a:hover {
     color:black !important;
     font-weight: bold;
     padding:1vw;
+    border:2px solid black;
     border-radius:1vw;
 }
 
@@ -44,8 +49,11 @@ a, a:hover {
 }
 
 .standout-text {
-    /* font-weight:bold; */
     color:hotpink;
+}
+
+.subtitle {
+    font-weight:bold;
 }
 
 .photo {
@@ -53,15 +61,45 @@ a, a:hover {
     height:auto;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2vw; 
+    margin:4vh;
+}
+
+.grid-item {
+    background-color: #f4f4f4;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top:3vh;
+    padding-bottom:3vh;
+    border: 2px solid black;
+    text-align: center;
+    border-radius:1vw;
+    text-decoration: none;
+}
+
+.grid-item:hover {
+    background-color: rgb(255, 152, 204);
+    cursor:pointer;
+    border: 2px solid black;
+    text-align: center;
+}
+
 /* styling for mobile screens! */
 @media only screen and (max-width: 768px) {
+    .height-dependent-content {
+        display: none;
+    }
+
     .navbar {
         display: flex;
         flex-direction: column;
         align-items:flex-end; 
         box-sizing:border-box;
         list-style-type: none;
-        gap: 4vw; 
+        gap: 3vw; 
         width:95vw;
         margin-top:1vh;
         position:absolute;
@@ -77,6 +115,16 @@ a, a:hover {
     .photo {
         max-width: 50vw;
         height:auto;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 4vw; 
+        margin:2vh;
+    }
+
+    .grid-item {
+        border-radius:4vw;
     }
 
 }
