@@ -29,7 +29,7 @@ a, a:hover {
     display: inline-block;
     text-decoration: none;
     transition: all 0.3s ease;
-    background-color:rgb(255, 152, 204);
+    background-color:rgb(161, 194, 255);
     color:black !important;
     font-weight: bold;
     padding:1vw;
@@ -38,7 +38,7 @@ a, a:hover {
 }
 
 .navbar-button:hover {
-    background-color:hotpink;
+    background-color:rgb(50, 98, 187);
     color:white !important;
 }
 
@@ -49,7 +49,7 @@ a, a:hover {
 }
 
 .standout-text {
-    color:hotpink;
+    color:rgb(50, 98, 187);
 }
 
 .subtitle {
@@ -70,8 +70,8 @@ a, a:hover {
 
 .grid-item {
     background-color: #f4f4f4;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
     padding-top:3vh;
     padding-bottom:3vh;
     border: 2px solid black;
@@ -81,7 +81,7 @@ a, a:hover {
 } 
 
 .grid-item:hover {
-    background-color: rgb(255, 152, 204);
+    background-color: rgb(161, 194, 255);
     cursor:pointer;
     border: 2px solid black;
     text-align: center;
