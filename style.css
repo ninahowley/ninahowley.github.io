@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    box-sizing:border-box;
+    list-style-type: none;
+    gap: 2vw; 
+    width:95%;
+    position:fixed;
+    z-index:1000;
+}
+
+.navbar-button {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color:rgb(255, 152, 204);
+    color:black;
+    font-weight: bold;
+    padding:1vw;
+    border-radius:1vw;
+}
+
+.navbar-button:hover {
+    background-color:hotpink;
+    color:white;
+}
+
+.section-title {
+    font-weight:bold;
+    padding:1%;
+}
+
+.photo {
+    max-width: 20vw;
+    height:auto;
+}
+
+/* MOBILE STYLING */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end; 
+        box-sizing:border-box;
+        list-style-type: none;
+        gap: 4vw; 
+        width:95vw;
+        position:fixed;
+        z-index:1000;
+    }
+
+    .photo {
+        max-width: 35vw;
+        height:auto;
+    }
+
+}
