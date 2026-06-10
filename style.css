@@ -78,7 +78,7 @@ a, a:hover {
     text-align: center;
     border-radius:1vw;
     text-decoration: none;
-}
+} 
 
 .grid-item:hover {
     background-color: rgb(255, 152, 204);
@@ -86,6 +86,7 @@ a, a:hover {
     border: 2px solid black;
     text-align: center;
 }
+
 
 /* styling for mobile screens! */
 @media only screen and (max-width: 768px) {
