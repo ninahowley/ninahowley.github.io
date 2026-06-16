@@ -62,7 +62,6 @@ body::-webkit-scrollbar {
 .navbar-button { 
     display: inline-block;
     text-decoration: none;
-    transition: all 0.3s ease;
     background-color: #D9B8E9;
     color:#192C67 !important;
     font-weight: bold;
