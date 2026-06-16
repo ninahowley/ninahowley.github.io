@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-color:rgb(207, 224, 255);
 }
 
 p, h1, h2, h3 {
@@ -15,14 +16,30 @@ a, a:hover {
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end; 
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 2vh 4vw;
+    width:100%;
     box-sizing:border-box;
-    list-style-type: none;
-    gap: 2vw; 
-    width:95%;
-    position:fixed;
+    top: 0;
+    left: 0;
     z-index:1000;
+    background-color: rgb(50, 98, 187);
+}
+
+.navbar-title {
+    color:
+    margin:0;
+    padding:0;
+}
+
+.navbar-menu {
+    display:flex;
+    gap:1vw;
+    list-style-type:none;
+    margin:0;
+    padding:0;
 }
 
 .navbar-button { 
@@ -32,14 +49,15 @@ a, a:hover {
     background-color:rgb(161, 194, 255);
     color:black !important;
     font-weight: bold;
-    padding:1vw;
+    padding:1.5vw;
     border:2px solid black;
-    border-radius:1vw;
+    border-radius:1.5vw;
 }
 
 .navbar-button:hover {
     background-color:rgb(50, 98, 187);
-    color:white !important;
+    color:rgb(207, 224, 255) !important;
+    border:2px solid black;
 }
 
 .section-title {
@@ -54,6 +72,11 @@ a, a:hover {
 
 .subtitle {
     font-weight:bold;
+}
+
+.seperator {
+    height:5px;
+    background-color:rgb(50, 98, 187);
 }
 
 .photo {
