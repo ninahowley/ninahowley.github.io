@@ -14,7 +14,6 @@ html {
 }
 
 p, h1, h2, h3 {
-    margin:0;
     margin: 1vh 1vw !important;
 }
 
@@ -37,7 +36,6 @@ body::-webkit-scrollbar {
     align-items:center;
     margin: 1vh 1vw;
     padding: 1vh 1vw;
-    width:100%;
     box-sizing:border-box;
     top: 0;
     left: 0;
@@ -90,9 +88,9 @@ body::-webkit-scrollbar {
     font-weight:bold;
 }
 
-.photo {
-    max-width: 25vw;
-    height:auto;
+.profile-photo {
+    height:80vh;
+    width:auto;
     margin: 1vh 1vw;
 }
 
@@ -137,6 +135,12 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 768px) {
     .height-dependent-content {
         display: none;
+    }
+
+    .profile-photo {
+        width:93vw;
+        height:auto;
+        margin: 1vh 1vw;
     }
 
     .grid-container {
