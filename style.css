@@ -166,10 +166,25 @@ body::-webkit-scrollbar {
     }
 
     .navbar {
+        position:fixed;
+        top:0;
+        width:100%;
+        display:flex;
         justify-content: center !important;
-        width:93vw !important;
         margin: 0 !important;
         padding: 1vh 1vw !important;
+    }
+
+    .navbar-menu {
+        display:flex;
+        gap:2vw;
+        list-style-type:none;
+        margin:0;
+        padding:0;
+    }
+
+    .page-content {
+        margin-top:6vh;
     }
 
     .profile-photo {
