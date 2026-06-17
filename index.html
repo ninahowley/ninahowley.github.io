@@ -11,7 +11,7 @@
 
   <body>
 
-    <div class="height-dependent-content">
+    <div class="desktop-content">
         <nav class="navbar">
             <h1 class="navbar-title">Nina's Portfolio</h1>
             <ul class="navbar-menu">
@@ -22,19 +22,38 @@
             </ul>
         </nav>
     </div>
-      
-    <img src="static/profile-photo.jpg" class="profile-photo">
-    <p class="standout-text">Photo here eventually ^</p>
-    <p>Welcome to my portfolio (WIP)</p>
-    <p>More "about me" text.</p>
+    <div class="mobile-content">
+        <nav class="navbar">
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-button">About</a></li>
+                <li><a href="research.html" class="navbar-button">Research</a></li>
+                <li><a href="projects.html" class="navbar-button">Projects</a></li>
+                <li><a href="art_and_writing.html" class="navbar-button">Art & Writing</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <h3 id="contact" class="section-title">Contact</h3>
-    <p class="standout-text">Feel free to contact me for additional information!</p>
-    <p>Email: ninahowley04@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ninahowley/" target="_blank">ninahowley</a></p>
-    <p>GitHub: <a href="https://github.com/ninahowley" target="_blank">ninahowley</a></p>
+    <div class="index-grid-container">
+        <div>
+            <div class="mobile-content" style="display: flex; justify-content: center; align-items: center;">
+                <img src="static/profile-photo.jpg" class="profile-photo">
+            </div>
+        </div>
+        <div>
+            <p class="standout-text">< Actual photo here eventually</p>
+            <p>Welcome to my portfolio (WIP)</p>
+            <p>Add more "about me" text.</p>
 
-    <p>I have written the code for this website without the use of AI. It should also work on mobile! Please let me know if anything is inaccessible or if you have any suggestions :)</p>
+            <h3 class="section-title">Contact</h3>
+            <p>Feel free to contact me for additional information!</p>
+            <p>Email: ninahowley04@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ninahowley/" target="_blank">@ninahowley</a></p>
+            <p>GitHub: <a href="https://github.com/ninahowley" target="_blank">@ninahowley</a></p>
 
+            <hr class="grid-seperator">
+
+            <p>I have written the code for this website without the use of AI. It should also work on mobile! Please let me know if anything is inaccessible or if you have any suggestions :)</p>
+        </div>
+    </div>
 </body>
 </HTML>
