@@ -23,6 +23,14 @@ a:hover {
     color: #000000;
 }
 
+.desktop-content {
+    display: block;
+}
+
+.mobile-content {
+    display: none;
+}
+
 /* page wrapper */
 .page-wrapper {
     display:flex;
@@ -111,7 +119,7 @@ a:hover {
         #bcc0c4 100%
     );
     border: 0.35vh ridge black;
-    padding: 1vw 1vw;
+    padding: 0 1vw;
     margin-bottom:4vh;
     box-sizing:border-box;
 }
@@ -190,38 +198,16 @@ a:hover {
 
 /* mobile screens */
 @media only screen and (max-width: 768px) {
+    .desktop-content {
+        display: none;
+    }
+
+    .mobile-content {
+        display: block;
+    }
+
     body {
-        font-size: 3.5vw;
-    }
-
-    .navbar {
-        display:flex;
-        justify-content:center;
-        height:100px;
-        align-items:center;
-        padding: 1vh 1vw;
-        box-sizing:border-box;
-        z-index:1000;
-        background-color: #192C67;
-    }
-
-    .navbar-menu {
-        display:flex;
-        gap:10px;
-        list-style-type:none;
-        margin:0;
-        padding:0;
-    }
-
-    .navbar-button { 
-        display: inline-block;
-        text-decoration: none;
-        background-color: #D9B8E9;
-        color:#192C67 !important;
-        font-weight: bold;
-        padding:10px;
-        border: 2px solid #192C67;
-        border-radius:15px;
-    }
-
+            background-image:none;
+            background-color: white !important;
+        }
 }
