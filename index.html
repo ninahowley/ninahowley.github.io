@@ -26,13 +26,13 @@
 
                 <div class="profile-container">
                     <div class="profile-photo-container">
-                        <img src="static/profile-photo.jpg" class="profile-photo">
+                        <img class="profile-photo" id="me" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXAzNGZlMTljMXZ2cHg3b2Rjdmh6dDI4NzJ1ZDlkcGZvOTd3eXdpZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xiZriwiK0T5VpLKMLM/giphy.gif">
                         <ul class="profile-photo-buttons">
-                            <li>←</li>
-                            <li>↑</li>
-                            <li>↓</li>
-                            <li>→</li>
-                            <li>↻</li>
+                            <li onclick="left()">←</li>
+                            <li onclick="front()">↓</li>
+                            <li onclick="right()">→</li>
+                            <li onclick="back()">↑</li>
+                            <li onclick="spin()">↻</li>
                         </ul>
                     </div>
                     <div>
@@ -68,4 +68,21 @@
         <p>Mobile portfolio coming soon.</p>
     </div>
 </body>
+<script>
+    function back() {
+        document.getElementById("me").src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXExcTA1bWlyNWU1OWI2bjc2M3AzeGZrb2dmOWZmZmF4YjJwY2dkbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4y5jpLow2wqUvz9SKg/giphy.gif";
+    }
+    function left() {
+        document.getElementById("me").src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd25jMHM0eWw3bjh2bTF4MGVyaDJseWQ4dHU1YXpiZzhkMTIxaGl6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/136efKEWAjj4UJLYxe/giphy.gif";
+    }
+    function spin() {
+        document.getElementById("me").src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjlzZTdqZGZzdjFkMmp0NHAwYzNteHN3ZnRuajl6Y3Z6djAwZ2ppNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WtP6TZQKBGJSYRxCRr/giphy.gif";
+    }
+    function right() {
+        document.getElementById("me").src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWhxcDZ5bzB1aHp4NXZtdTM1NDZiY2U5MWpjNXhhcmFsbDllZDRubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9HV7PStQE30ECxBNQx/giphy.gif";
+    }
+    function front() {
+        document.getElementById("me").src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXAzNGZlMTljMXZ2cHg3b2Rjdmh6dDI4NzJ1ZDlkcGZvOTd3eXdpZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xiZriwiK0T5VpLKMLM/giphy.gif";
+    }
+</script>
 </HTML>
