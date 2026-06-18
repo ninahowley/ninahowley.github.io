@@ -98,7 +98,7 @@ a:hover {
     align-items:start;
 }
 .profile-scroll-box {
-    height: 92%;       
+    height: 91%;       
     overflow-y: auto;   
     padding-right: 1vw; 
     background-color:white;
@@ -120,7 +120,7 @@ a:hover {
     );
     border: 0.35vh ridge black;
     padding: 0 1vw;
-    margin-bottom:4vh;
+    margin-bottom:3vh;
     box-sizing:border-box;
 }
 .profile-info-container:hover {
