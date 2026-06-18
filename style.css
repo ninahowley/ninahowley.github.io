@@ -159,7 +159,7 @@ a:hover {
 }
 .profile-photo-buttons li {
     background:linear-gradient(
-        90deg,
+        120deg,
         #cfd1d4 0%,
         #e3e5e8 25%,
         #f0f2f5 50%,
@@ -174,12 +174,12 @@ a:hover {
 }
 .profile-photo-buttons li:hover {
     background:linear-gradient(
-        90deg,
-        #f5aecc 0%,
-        #ffd1e4 25%,
-        #f0f2f5 50%,
-        #d9dbde 75%,
-        #bcc0c4 100%
+        120deg,
+        #b2b5b8 0%,
+        #bcbec1 25%,
+        #e1e3e7 50%,
+        #c1c4c7 75%,
+        #919498 100%
     );
     cursor:pointer;
 }
@@ -193,8 +193,6 @@ a:hover {
     top:0;
     padding: 1vh 1vw;
 }
-
-
 
 /* mobile screens */
 @media only screen and (max-width: 768px) {
