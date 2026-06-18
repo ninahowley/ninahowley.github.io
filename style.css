@@ -76,7 +76,7 @@ a:hover {
 .navbar a { 
     display: inline-block;
     text-decoration: none;
-    color:#b3b3b3 !important;
+    color:#b3b3b3;
     text-shadow: -0.25vh -0.25vh 0 #383838;
     outline-offset: -5px;
     font-weight: bold;
@@ -85,6 +85,9 @@ a:hover {
     border-radius: 1vh;
 }
 .navbar a:hover {
+    color:#f5aecc !important;
+}
+.selected {
     color:#f5aecc !important;
 }
 
