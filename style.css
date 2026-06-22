@@ -92,8 +92,6 @@ a:hover {
 }
 .navbar a:hover {
     cursor:pointer;
-    color:black;
-    background: radial-gradient(circle, white 0%, #38b6ff 75%);
     transform: translateX(-3px);
     transform: translatey(-3px);
     box-shadow: #045889 3px 3px 5px;
@@ -148,8 +146,6 @@ a:hover {
 }
 .about-left-menu li:hover {
     cursor:pointer;
-    color:black;
-    background: radial-gradient(circle, white 0%, #38b6ff 75%);
     transform: translateX(-3px);
     transform: translatey(-3px);
     box-shadow: #045889 3px 3px 5px;
@@ -247,8 +243,8 @@ a:hover {
 }
 .project-block:hover {
     cursor:pointer;
+    background-color: white;
     color:black;
-    background: radial-gradient(circle, white 0%, #38b6ff 75%);
     transform: translateX(-3px);
     transform: translatey(-3px);
     box-shadow: #045889 3px 3px 5px;
