@@ -185,29 +185,24 @@ a:hover {
         grid-template-columns: 1fr; 
         gap: 15px;
     }
-
     .about-left {
         height: auto; 
         padding: 15px;
     }
-
     .about-photo {
         max-width: 250px; 
         margin: 0 auto;
     }
-
     .about-left-menu {
-        gap: 10px; 
+        gap: 15px; 
         padding-top: 15px;
         padding-bottom: 15px;
     }
-
     .about-left-menu li {
         height: 50px; 
         width: 50px;
         font-size: 24px;
     }
-
     .about-right {
         height: auto; 
         padding: 20px;
