@@ -146,6 +146,8 @@ a:hover {
     overflow-y: auto;
 }
 .about-photo {
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid black;
     width: 100%;
     height: auto;
 }
