@@ -305,9 +305,13 @@ a:hover {
     /*          */
     /* RESEARCH */
     /*          */
+    /* .research-container {
+        background-color: white;
+        padding: none;
+    } */
     .research-block {
         grid-template-columns: 1fr; 
-        border: none;
+        /* border: none; */
         padding: none;
     }
 
