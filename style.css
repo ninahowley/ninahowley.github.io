@@ -19,12 +19,21 @@ h1 {
     color: #38b6ff;
     -webkit-text-stroke: 6px #000000; 
     paint-order: stroke fill;
-    margin: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: black; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 20px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 hr {
@@ -47,8 +56,6 @@ a:hover {
     color:#38b6ff;
     text-decoration:none;
     background-color:black;
-    padding: 2px 2px;
-    border-radius: 7.5px;
 }
 
 .page-wrapper {
@@ -56,6 +63,10 @@ a:hover {
     max-width:1440px;
     margin: 0 auto;
     padding: 10px 10px;
+}
+
+.subtext {
+    color:#097abb;
 }
 
 /*          */
@@ -92,6 +103,11 @@ a:hover {
     color:white;
     border:2px solid white;
 }
+.navbar-resume {
+    background-color:#38b6ff !important;
+    color:black !important;
+    border: 2px solid black !important;
+}
 
 /*          */
 /* ABOUT    */
@@ -119,6 +135,7 @@ a:hover {
     padding-top:30px;
     padding-bottom:30px;
     list-style-type:none;
+    margin:10px;
 }
 .about-left-menu li {
     display: flex;
@@ -151,6 +168,38 @@ a:hover {
     border: 2px solid black;
     width: 100%;
     height: auto;
+}
+
+/*          */
+/* RESEARCH */
+/*          */
+.research-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    margin-top: 15px; 
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+.research-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 30px;
+    width: 100%;
+}
+.research-left {
+    background-color:rgb(255, 255, 255);
+    border: 2px solid black;
+
+}
+.research-right {
+    background-color: white;
+    padding-left: 10px;
 }
 
 @media (max-width: 769px) {
@@ -211,5 +260,12 @@ a:hover {
         height: auto; 
         padding: 20px;
         overflow-y: visible; 
+    }
+
+    /*          */
+    /* RESEARCH */
+    /*          */
+    .research-block {
+        grid-template-columns: 1fr; 
     }
 }
