@@ -36,21 +36,6 @@ p {
     margin-bottom: 10px;
 }
 
-a {
-    color:black;
-    text-decoration:none;
-    background-color:#38b6ff;
-    padding: 2px 2px;
-    border-radius: 7.5px;
-    display: inline-block;
-}
-
-a:hover {
-    color:#38b6ff;
-    text-decoration:none;
-    background-color:black;
-}
-
 .page-wrapper {
     width:100%;
     max-width:1440px;
@@ -128,6 +113,19 @@ a:hover {
     gap: 20px;
     max-height: calc(100vh - 120px); 
     min-height: 450px;
+}
+.about-left a {
+    color:black;
+    text-decoration:none;
+    background-color:#38b6ff;
+    padding: 2px 2px;
+    border-radius: 7.5px;
+    display: inline-block;
+}
+.about-left a:hover {
+    color:#38b6ff;
+    text-decoration:none;
+    background-color:black;
 }
 .about-photo {
     background: rgba(255, 255, 255, 0.5);
@@ -288,11 +286,29 @@ a:hover {
     padding: 30px;
     width: 100%;
 }
-.art-block a {
+.art-block .link {
     font-weight:bold;
     font-size: 32px;
     padding: 15px 15px;
     align-self: flex-start;
+}
+.art-block .link {
+    color:black;
+    font-size: 32px;
+    padding: 15px 15px;
+    align-self: flex-start;
+    font-weight:bold;
+    text-decoration:none;
+    background-color:#38b6ff;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.art-block .link:hover {
+    color:#38b6ff;
+    text-decoration:none;
+    background-color:black;
 }
 .three-art-container {
     display: grid;
