@@ -450,5 +450,26 @@ p {
     .three-art-container {
         grid-template-columns: 1fr;
         gap: 15px;
+        padding: 5px 0;
+    }
+    .three-art-container .review {
+        padding: 15px 10px;
+    }
+    .pixel-art-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 5px 0;
+        justify-items: center;
+    }
+    .pixel-art-container a, .pixel-art-container img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+    .art-block .link {
+        font-size: 22px;
+        padding: 10px 20px;
+        width: 100%;
+        text-align: center;
     }
 }
