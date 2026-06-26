@@ -111,7 +111,6 @@ p {
     border: 2px solid black;
     padding: 15px;
     display: grid;
-    /* Split into two equal halves vertically */
     grid-template-rows: 50% 50%; 
     align-content: space-between; 
     justify-items: center;
@@ -294,16 +293,12 @@ p {
     width: 100%;
 }
 .art-block .link {
-    font-weight:bold;
-    font-size: 32px;
-    padding: 15px 15px;
-    align-self: flex-start;
-}
-.art-block .link {
     color:black;
     font-size: 32px;
     padding: 15px 15px;
     align-self: flex-start;
+    justify-self: start;
+    width:max-content;
     font-weight:bold;
     text-decoration:none;
     background-color:#38b6ff;
