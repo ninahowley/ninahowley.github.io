@@ -86,9 +86,9 @@ p {
 }
 .navbar a:hover {
     cursor:pointer;
-    transform: translateX(-3px);
-    transform: translatey(-3px);
-    box-shadow: #045889 3px 3px 5px;
+    transform: translateX(-2px);
+    transform: translatey(-2px);
+    box-shadow: black 3px 3px 0px;
 }
 .navbar-resume {
     background-color:#38b6ff !important;
@@ -166,8 +166,8 @@ p {
 }
 .about-left-menu li:hover {
     cursor: pointer;
-    transform: translate(-3px, -3px);
-    box-shadow: #045889 3px 3px 5px;
+    transform: translate(-2px, -2px);
+    box-shadow: black 3px 3px 0px;
 }
 .up-btn    { grid-column: 2; grid-row: 1; }
 .left-btn  { grid-column: 1; grid-row: 2; }
@@ -264,7 +264,7 @@ p {
     color:black;
     transform: translateX(-3px);
     transform: translatey(-3px);
-    box-shadow: #045889 3px 3px 5px;
+    box-shadow: black 3px 3px 0px;
 }
 
 /*      */
@@ -339,7 +339,7 @@ p {
     cursor:pointer;
     transform: translateX(-3px);
     transform: translatey(-3px);
-    box-shadow: #045889 3px 3px 5px;
+    box-shadow: black 3px 3px 0px;
 }
 .pixel-art-container {
     display: grid;
@@ -367,7 +367,7 @@ p {
     cursor:pointer;
     transform: translateX(-3px);
     transform: translatey(-3px);
-    box-shadow: #045889 3px 3px 5px;
+    box-shadow: black 3px 3px 0px;
 }
 
 
