@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Bricolage Grotesque', sans-serif;
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    font-family: "Fira Sans Condensed", sans-serif;
     scrollbar-width: none; 
     -ms-overflow-style: none;
     overflow-y:hidden;
