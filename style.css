@@ -334,14 +334,15 @@ p {
 }
 .three-art-container img {
     background-color: white;
+    border:2px solid black;
     width: 100%;
 }
-.three-art-container img:hover, .review:hover {
+/* .three-art-container img:hover, .review:hover {
     cursor:pointer;
     transform: translateX(-3px);
     transform: translatey(-3px);
     box-shadow: black 3px 3px 0px;
-}
+} */
 .pixel-art-container {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.35fr); 
@@ -357,6 +358,7 @@ p {
 }
 .pixel-art-container img {
     background-color: white;
+    border:2px solid black;
     /* width: 100%; */
     max-height: 360px;
     width: 100%;
@@ -364,12 +366,12 @@ p {
     display:block;
     object-fit: contain;
 }
-.pixel-art-container img:hover {
+/* .pixel-art-container img:hover {
     cursor:pointer;
     transform: translateX(-3px);
     transform: translatey(-3px);
     box-shadow: black 3px 3px 0px;
-}
+} */
 
 
 @media (max-width: 769px) {
